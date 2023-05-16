@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031C52A22A12230300B1B526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C52A12A12230300B1B526 /* AppDelegate.swift */; };
+		031C52A42A12230300B1B526 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C52A32A12230300B1B526 /* SceneDelegate.swift */; };
+		031C52A92A12230300B1B526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031C52A72A12230300B1B526 /* Main.storyboard */; };
+		031C52AB2A12230700B1B526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031C52AA2A12230700B1B526 /* Assets.xcassets */; };
+		031C52AE2A12230700B1B526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031C52AC2A12230700B1B526 /* LaunchScreen.storyboard */; };
+		031C52BA2A1223B900B1B526 /* LoginFromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C52B92A1223B900B1B526 /* LoginFromViewController.swift */; };
+		031C52BC2A1223CB00B1B526 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C52BB2A1223CB00B1B526 /* UI.swift */; };
+		031C52BF2A1239B900B1B526 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C52BE2A1239B900B1B526 /* ExtensionUIColor.swift */; };
+		03BD240B2A15383200167E8A /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD240A2A15383200167E8A /* FriendsViewController.swift */; };
+		03BD240D2A15391000167E8A /* FriendsDataSourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD240C2A15391000167E8A /* FriendsDataSourceController.swift */; };
+		03BD240F2A15394400167E8A /* FriendsDelegateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD240E2A15394400167E8A /* FriendsDelegateController.swift */; };
+		03BD24112A15396700167E8A /* MyGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD24102A15396700167E8A /* MyGroupsViewController.swift */; };
+		03BD24132A15397D00167E8A /* MyGroupsDataSourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD24122A15397D00167E8A /* MyGroupsDataSourceController.swift */; };
+		03BD24152A15399200167E8A /* MyGroupsDelegateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD24142A15399200167E8A /* MyGroupsDelegateController.swift */; };
+		03BD24172A1539AC00167E8A /* AllGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD24162A1539AC00167E8A /* AllGroupsViewController.swift */; };
+		03BD24192A1539BF00167E8A /* AllGroupsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD24182A1539BF00167E8A /* AllGroupsDataSource.swift */; };
+		03BD241B2A1539D800167E8A /* AllGroupsDelegateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD241A2A1539D800167E8A /* AllGroupsDelegateController.swift */; };
+		03BD241D2A153A0100167E8A /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD241C2A153A0100167E8A /* PhotoViewController.swift */; };
+		03C6FB972A164CD8009F08D7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C6FB962A164CD8009F08D7 /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031C529E2A12230300B1B526 /* ВКонтакте.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ВКонтакте.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		031C52A12A12230300B1B526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		031C52A32A12230300B1B526 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		031C52A82A12230300B1B526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		031C52AA2A12230700B1B526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031C52AD2A12230700B1B526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		031C52AF2A12230700B1B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031C52B92A1223B900B1B526 /* LoginFromViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFromViewController.swift; sourceTree = "<group>"; };
+		031C52BB2A1223CB00B1B526 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		031C52BE2A1239B900B1B526 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		03BD240A2A15383200167E8A /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		03BD240C2A15391000167E8A /* FriendsDataSourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDataSourceController.swift; sourceTree = "<group>"; };
+		03BD240E2A15394400167E8A /* FriendsDelegateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDelegateController.swift; sourceTree = "<group>"; };
+		03BD24102A15396700167E8A /* MyGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsViewController.swift; sourceTree = "<group>"; };
+		03BD24122A15397D00167E8A /* MyGroupsDataSourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsDataSourceController.swift; sourceTree = "<group>"; };
+		03BD24142A15399200167E8A /* MyGroupsDelegateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsDelegateController.swift; sourceTree = "<group>"; };
+		03BD24162A1539AC00167E8A /* AllGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsViewController.swift; sourceTree = "<group>"; };
+		03BD24182A1539BF00167E8A /* AllGroupsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsDataSource.swift; sourceTree = "<group>"; };
+		03BD241A2A1539D800167E8A /* AllGroupsDelegateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsDelegateController.swift; sourceTree = "<group>"; };
+		03BD241C2A153A0100167E8A /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		03C6FB962A164CD8009F08D7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031C529B2A12230300B1B526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031C52952A12230200B1B526 = {
+			isa = PBXGroup;
+			children = (
+				031C52A02A12230300B1B526 /* ВКонтакте */,
+				031C529F2A12230300B1B526 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031C529F2A12230300B1B526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031C529E2A12230300B1B526 /* ВКонтакте.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031C52A02A12230300B1B526 /* ВКонтакте */ = {
+			isa = PBXGroup;
+			children = (
+				031C52A12A12230300B1B526 /* AppDelegate.swift */,
+				031C52A32A12230300B1B526 /* SceneDelegate.swift */,
+				031C52B72A12236700B1B526 /* Model */,
+				031C52B62A12236000B1B526 /* View */,
+				031C52B52A12235500B1B526 /* Controller */,
+				031C52AA2A12230700B1B526 /* Assets.xcassets */,
+				031C52AF2A12230700B1B526 /* Info.plist */,
+			);
+			path = "ВКонтакте";
+			sourceTree = "<group>";
+		};
+		031C52B52A12235500B1B526 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03C6FB962A164CD8009F08D7 /* TabBarViewController.swift */,
+				031C52B82A12239B00B1B526 /* Login */,
+				03BD24052A15378400167E8A /* Friends */,
+				03BD24042A15376800167E8A /* Groups */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		031C52B62A12236000B1B526 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				031C52AC2A12230700B1B526 /* LaunchScreen.storyboard */,
+				031C52A72A12230300B1B526 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		031C52B72A12236700B1B526 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				031C52BD2A1239A000B1B526 /* Extensions */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		031C52B82A12239B00B1B526 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				031C52B92A1223B900B1B526 /* LoginFromViewController.swift */,
+				031C52BB2A1223CB00B1B526 /* UI.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		031C52BD2A1239A000B1B526 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				031C52BE2A1239B900B1B526 /* ExtensionUIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		03BD24042A15376800167E8A /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				03BD24082A1537FF00167E8A /* MyGroups */,
+				03BD24092A15380800167E8A /* AllGroups */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		03BD24052A15378400167E8A /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				03BD24062A1537D900167E8A /* MyFriends */,
+				03BD24072A1537EC00167E8A /* PhotoFriends */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		03BD24062A1537D900167E8A /* MyFriends */ = {
+			isa = PBXGroup;
+			children = (
+				03BD240A2A15383200167E8A /* FriendsViewController.swift */,
+				03BD240C2A15391000167E8A /* FriendsDataSourceController.swift */,
+				03BD240E2A15394400167E8A /* FriendsDelegateController.swift */,
+			);
+			path = MyFriends;
+			sourceTree = "<group>";
+		};
+		03BD24072A1537EC00167E8A /* PhotoFriends */ = {
+			isa = PBXGroup;
+			children = (
+				03BD241C2A153A0100167E8A /* PhotoViewController.swift */,
+			);
+			path = PhotoFriends;
+			sourceTree = "<group>";
+		};
+		03BD24082A1537FF00167E8A /* MyGroups */ = {
+			isa = PBXGroup;
+			children = (
+				03BD24102A15396700167E8A /* MyGroupsViewController.swift */,
+				03BD24122A15397D00167E8A /* MyGroupsDataSourceController.swift */,
+				03BD24142A15399200167E8A /* MyGroupsDelegateController.swift */,
+			);
+			path = MyGroups;
+			sourceTree = "<group>";
+		};
+		03BD24092A15380800167E8A /* AllGroups */ = {
+			isa = PBXGroup;
+			children = (
+				03BD24162A1539AC00167E8A /* AllGroupsViewController.swift */,
+				03BD24182A1539BF00167E8A /* AllGroupsDataSource.swift */,
+				03BD241A2A1539D800167E8A /* AllGroupsDelegateController.swift */,
+			);
+			path = AllGroups;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031C529D2A12230300B1B526 /* ВКонтакте */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031C52B22A12230700B1B526 /* Build configuration list for PBXNativeTarget "ВКонтакте" */;
+			buildPhases = (
+				031C529A2A12230300B1B526 /* Sources */,
+				031C529B2A12230300B1B526 /* Frameworks */,
+				031C529C2A12230300B1B526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ВКонтакте";
+			productName = "ВКонтакте";
+			productReference = 031C529E2A12230300B1B526 /* ВКонтакте.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031C52962A12230200B1B526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					031C529D2A12230300B1B526 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 031C52992A12230300B1B526 /* Build configuration list for PBXProject "ВКонтакте" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 031C52952A12230200B1B526;
+			productRefGroup = 031C529F2A12230300B1B526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031C529D2A12230300B1B526 /* ВКонтакте */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031C529C2A12230300B1B526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C52AE2A12230700B1B526 /* LaunchScreen.storyboard in Resources */,
+				031C52AB2A12230700B1B526 /* Assets.xcassets in Resources */,
+				031C52A92A12230300B1B526 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031C529A2A12230300B1B526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C6FB972A164CD8009F08D7 /* TabBarViewController.swift in Sources */,
+				03BD24132A15397D00167E8A /* MyGroupsDataSourceController.swift in Sources */,
+				031C52BA2A1223B900B1B526 /* LoginFromViewController.swift in Sources */,
+				031C52BC2A1223CB00B1B526 /* UI.swift in Sources */,
+				03BD24192A1539BF00167E8A /* AllGroupsDataSource.swift in Sources */,
+				03BD241B2A1539D800167E8A /* AllGroupsDelegateController.swift in Sources */,
+				031C52A22A12230300B1B526 /* AppDelegate.swift in Sources */,
+				03BD24172A1539AC00167E8A /* AllGroupsViewController.swift in Sources */,
+				031C52BF2A1239B900B1B526 /* ExtensionUIColor.swift in Sources */,
+				03BD240F2A15394400167E8A /* FriendsDelegateController.swift in Sources */,
+				03BD240B2A15383200167E8A /* FriendsViewController.swift in Sources */,
+				03BD24112A15396700167E8A /* MyGroupsViewController.swift in Sources */,
+				03BD240D2A15391000167E8A /* FriendsDataSourceController.swift in Sources */,
+				031C52A42A12230300B1B526 /* SceneDelegate.swift in Sources */,
+				03BD24152A15399200167E8A /* MyGroupsDelegateController.swift in Sources */,
+				03BD241D2A153A0100167E8A /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		031C52A72A12230300B1B526 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031C52A82A12230300B1B526 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		031C52AC2A12230700B1B526 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031C52AD2A12230700B1B526 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031C52B02A12230700B1B526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		031C52B12A12230700B1B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		031C52B32A12230700B1B526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27HNUHGL83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ВКонтакте/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mihail.chertov-gmail.com.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		031C52B42A12230700B1B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27HNUHGL83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ВКонтакте/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mihail.chertov-gmail.com.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031C52992A12230300B1B526 /* Build configuration list for PBXProject "ВКонтакте" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C52B02A12230700B1B526 /* Debug */,
+				031C52B12A12230700B1B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031C52B22A12230700B1B526 /* Build configuration list for PBXNativeTarget "ВКонтакте" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C52B32A12230700B1B526 /* Debug */,
+				031C52B42A12230700B1B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031C52962A12230200B1B526 /* Project object */;
+}
